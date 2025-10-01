@@ -6,7 +6,7 @@ makes websites into lightweight, cross-platform desktop apps
 ```
 croissant https://example.com
 ```
-> croissant is based on the operating system native webview, no heavy solutions or 
+> croissant is based on the operating system native webview
 
 ~ arguments
 | parameter | description                |
