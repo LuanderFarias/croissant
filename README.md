@@ -9,9 +9,9 @@ croissant https://example.com
 > croissant is based on the operating system native webview
 
 ~ cli-arguments
-| parameter | description                |
-| :-------- | :------------------------- |
-| --navigation | adds a simple forward, backward and reload button |
-| --frameless | removes the app titlebar completely |
+| parameter | description                | status |
+| :-------- | :------------------------- | :----- |
+| --navigation | adds a simple forward, backward and reload button | under development |
+| --frameless | removes the app titlebar completely | under development |
 
 create stuff.
