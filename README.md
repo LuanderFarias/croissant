@@ -1,6 +1,6 @@
 ~ croissant
 
-turns websites into lightweight, cross-platform desktop apps using the native operating system webview with one command
+turns websites into lightweight, cross-platform desktop apps using the native operating system webview, all with one command
 
 <img src="screenshot.png"></img>
 ```
