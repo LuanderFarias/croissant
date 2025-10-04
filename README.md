@@ -1,8 +1,8 @@
 ~ croissant
 
-turns websites into lightweight, cross-platform desktop apps using the native operating system webview, all with one command
+turns websites into lightweight, cross-platform desktop apps using the operating system native webview in a single command
 
-<img src="screenshot.png"></img>
+<img src="example.gif"></img>
 ```
 ./croissant https://example.com
 ```
@@ -10,8 +10,12 @@ turns websites into lightweight, cross-platform desktop apps using the native op
 ~ cli-arguments
 | parameter | description                | status |
 | :-------- | :------------------------- | :----- |
+| --windows | forces to package the app into a .exe | under development |
+| --mac | forces to package the app into a .app | under development |
+| --linux | forces to package the app into a .elf | under development |
 | --navigation | adds a simple forward, backward and reload button | under development |
 | --frameless | removes the app titlebar completely | under development |
+> by default the app will always package in the running operating system format
 
 ~ manual-usage
 1. clone repo
