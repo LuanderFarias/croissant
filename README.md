@@ -1,4 +1,4 @@
-~ croissant
+~ croissant [experimental]
 
 turns websites into lightweight, cross-platform desktop apps using the operating system native webview in a single command
 
