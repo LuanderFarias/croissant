@@ -16,7 +16,7 @@ turns websites into lightweight, cross-platform desktop apps using the operating
 | --frameless | removes the app titlebar completely | under development |
 > by default the app will always package in the running operating system format
 
-~ flavors (os-api)
+~ flavors
 
 Flavors are our internal api to execute os-related actions, we can call them directly from a js file you can use to modify the app rendering and functions
 | flavor | description                | example |
