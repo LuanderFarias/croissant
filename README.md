@@ -16,6 +16,15 @@ turns websites into lightweight, cross-platform desktop apps using the operating
 | --frameless | removes the app titlebar completely | under development |
 > by default the app will always package in the running operating system format
 
+~ flavors (os-api)
+
+Flavors are our internal api to call os-related actions we can call directly from a js file u
+| flavor | description                | example |
+| :-------- | :------------------------- | :----- |
+| hardware | returns information about the user hardware | flavors.hardware.getAmount(memory); |
+| execute | open a program | flavors.execute("C://Users/User/Downloads/example.exe") |
+> croissant and flavors wiki coming soon
+
 ~ manual-usage
 1. clone repo
     ```
