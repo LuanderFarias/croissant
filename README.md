@@ -22,7 +22,7 @@ Flavors are our internal api to call os-related actions we can call directly fro
 | flavor | description                | example |
 | :-------- | :------------------------- | :----- |
 | hardware | returns information about the user hardware | flavors.hardware.getAmount(memory); |
-| execute | open a program | flavors.execute("C://Users/User/Downloads/example.exe") |
+| execute | open a program on the specified path | flavors.execute("C://Users/User/Downloads/example.exe") |
 > croissant and flavors wiki coming soon
 
 ~ manual-usage
