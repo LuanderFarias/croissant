@@ -18,7 +18,7 @@ turns websites into lightweight, cross-platform desktop apps using the operating
 
 ~ flavors
 
-Flavors are our internal api to execute os-related actions, we can call them directly from a js file you can use to modify the app rendering and functions
+Flavors are the internal api to execute os-related actions, we can call them directly from the framework.js file, which you can use to modify the app rendering and code more functions to the website/app
 | flavor | description                | example |
 | :-------- | :------------------------- | :----- |
 | hardware | returns information about the user hardware | flavors.hardware.getAmount(memory); |
